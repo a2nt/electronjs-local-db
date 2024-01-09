@@ -1,0 +1,36 @@
+{
+  "name": "node-desktop-app-template",
+  "productName": "Local SQLite Example",
+  "version": "1.0.0",
+  "description": "Simple Node.js Desktop Application Template using Electron and Bootstrap",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/majikarp/node-desktop-app-template",
+  "keywords": [
+    "Electron",
+    "Node",
+    "Template"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "dependencies": {
+   "bootstrap": "^4.3.1",
+    "cheerio": "^0.22.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.14.7",
+    "sql.js": "^0.4.0",
+    "tether": "^1.4.0"
+  },
+  "standard": {
+    "globals": [
+      "$"
+    ]
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.3",
+    "electron": "^4.0.4",
+    "gulp": "4.0.0"
+  }
+}
